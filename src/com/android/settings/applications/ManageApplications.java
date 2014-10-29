@@ -619,7 +619,7 @@ public class ManageApplications extends Fragment implements
                     filterObj = ApplicationsState.THIRD_PARTY_FILTER;
                     break;
                 case FILTER_APPS_SDCARD:
-                    filterObj = ApplicationsState.ON_SD_CARD_FILTER;
+                    filterObj = ApplicationsState.THIRD_PARTY_FILTER;
                     if (!emulated) {
                         mWhichSize = SIZE_EXTERNAL;
                     }
